@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c618099496b72ab47b38c1b6677b0b2a, type: 3}
+  m_Name: Seed
+  m_EditorClassIdentifier: 
+  Name: Semente de batata
+  stackable: 1
+  icon: {fileID: 1207264270, guid: 570da66ebeafe04498e9392e1f880a59, type: 3}
+  onAction: {fileID: 0}
+  onTileMapAction: {fileID: 11400000, guid: 79ac640205575ff4080c9c6c21324167, type: 2}
+  onItemUsed: {fileID: 11400000, guid: 79ac640205575ff4080c9c6c21324167, type: 2}
+  crop: {fileID: 11400000, guid: 4258883a9f924e042a872791f0eaa279, type: 2}

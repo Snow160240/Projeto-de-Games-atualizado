@@ -1,0 +1,4 @@
+repository "Projeto de Games atualizado@vitoriapaiz14@cloud"
+  path "/"
+    br "/main"
+    co "/main"

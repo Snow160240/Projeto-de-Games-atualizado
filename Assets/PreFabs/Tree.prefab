@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 9024117720087083165}
   - component: {fileID: 7908177191191957533}
   - component: {fileID: 1201393431576132525}
+  - component: {fileID: 4153929890816768684}
+  - component: {fileID: 2942354141200018903}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -144,5 +146,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUpDrop: {fileID: 0}
-  dropCount: 5
   spread: 0.7
+  item: {fileID: 11400000, guid: 0692b92a93a36c346b40d7a75b4ed408, type: 2}
+  itemCountInOneDrop: 1
+  dropCount: 5
+  nodeType: 1
+--- !u!114 &4153929890816768684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846409162419882274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8eb9c7c5214b24bafecb1bddb35d60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2942354141200018903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4846409162419882274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913d2e94debfe6d4fa01e00a80008424, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toSpawn: {fileID: 11400000, guid: 938f2917f2f2762419180e3112e1b38e, type: 2}
+  count: 1
+  spread: 2
+  probability: 0.01
